@@ -1,0 +1,35 @@
+{"frames": {
+
+"clicker":
+{
+	"frame": {"x":331,"y":363,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"img_7":
+{
+	"frame": {"x":0,"y":0,"w":490,"h":361},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":490,"h":361},
+	"sourceSize": {"w":490,"h":361}
+},
+"tips":
+{
+	"frame": {"x":0,"y":363,"w":329,"h":412},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":329,"h":412},
+	"sourceSize": {"w":329,"h":412}
+}},
+"meta": {
+	"app": "Adobe Animate",
+	"version": "19.2.1.408",
+	"image": "infografia 4_atlas_.png",
+	"format": "RGBA8888",
+	"size": {"w":512,"h":1024},
+	"scale": "1"
+}
+}
