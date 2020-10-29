@@ -21,8 +21,8 @@
 	top:0;bottom:0;
   }
 </style>
-<script src="libs/createjs-2015.11.26.min.js"></script>
-<script src="InfografíaFijaNo5.js?1596663292246"></script>
+<script src="libs/1.0.0/createjs.min.js"></script>
+<script src="InfografíaFijaNo5.js?1602727171747"></script>
 <script>
 var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
 function init() {
@@ -56,7 +56,7 @@ function handleComplete(evt,comp) {
 	//Registers the "tick" event listener.
 	fnStartAnimation = function() {
 		stage.addChild(exportRoot);
-		createjs.Ticker.setFPS(lib.properties.fps);
+		createjs.Ticker.framerate = lib.properties.fps;
 		createjs.Ticker.addEventListener("tick", stage);
 	}	    
 	//Code to support hidpi screens and responsive scaling.
@@ -68,9 +68,9 @@ function handleComplete(evt,comp) {
 <!-- write your code here -->
 </head>
 <body onload="init();" style="margin:0px;">
-	<div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:1100px; height:900px">
-		<canvas id="canvas" width="1100" height="900" style="position: absolute; display: block; background-color:rgba(255, 255, 255, 1.00);"></canvas>
-		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:1100px; height:900px; position: absolute; left: 0px; top: 0px; display: block;">
+	<div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:1200px; height:900px">
+		<canvas id="canvas" width="1200" height="900" style="position: absolute; display: block; background-color:rgba(255, 255, 255, 1.00);"></canvas>
+		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:1200px; height:900px; position: absolute; left: 0px; top: 0px; display: block;">
 		</div>
 	</div>
 </body>
